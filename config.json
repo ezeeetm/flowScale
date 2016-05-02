@@ -1,10 +1,10 @@
 {
 	"globalConfig": {
 		"debug": true,
-		"configValue0": "someValue",
-		"configValue1": "someValue",
-		"configValue2": "someValue",
-		"configValue3": "someValue"
+		"region": "us-east-1",
+		"stateTable": "scalingState-uaa",
+		"stateTableInitialReadCapacityUnits": 5,
+		"stateTableInitialWriteCapacityUnits": 5
 	},
 	"stackConfigs": {
 		"stackA-uid": {

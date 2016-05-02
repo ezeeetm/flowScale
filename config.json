@@ -1,0 +1,175 @@
+{
+	"globalConfig": {
+		"debug": true,
+		"configValue0": "someValue",
+		"configValue1": "someValue",
+		"configValue2": "someValue",
+		"configValue3": "someValue"
+	},
+	"stackConfigs": {
+		"stackA-uid": {
+			"scenarioA": {
+				"changeGroupA1": {
+					"provisionedReads": 100,
+					"provisionedWrites": 500,
+					"members": [{
+						"type": "tableRegex",
+						"value": "someTableRegex"
+					}, {
+						"type": "indexRegex",
+						"name": "someIndexRegex"
+					}, {
+						"type": "table",
+						"name": "someTable"
+					}, {
+						"type": "index",
+						"name": "someIndex"
+					}]
+
+				},
+				"changeGroupA2": {
+					"provisionedReads": 100,
+					"provisionedWrites": 500,
+					"members": [{
+						"type": "tableRegex",
+						"value": "someTableRegex"
+					}, {
+						"type": "indexRegex",
+						"name": "someIndexRegex"
+					}, {
+						"type": "table",
+						"name": "someTable"
+					}, {
+						"type": "index",
+						"name": "someIndex"
+					}]
+
+				}
+
+			},
+			"scenarioB": {
+				"changeGroupB1": {
+					"provisionedReads": 100,
+					"provisionedWrites": 500,
+					"members": [{
+						"type": "tableRegex",
+						"value": "someTableRegex"
+					}, {
+						"type": "indexRegex",
+						"name": "someIndexRegex"
+					}, {
+						"type": "table",
+						"name": "someTable"
+					}, {
+						"type": "index",
+						"name": "someIndex"
+					}]
+
+				},
+				"changeGroupB2": {
+					"provisionedReads": 100,
+					"provisionedWrites": 500,
+					"members": [{
+						"type": "tableRegex",
+						"value": "someTableRegex"
+					}, {
+						"type": "indexRegex",
+						"name": "someIndexRegex"
+					}, {
+						"type": "table",
+						"name": "someTable"
+					}, {
+						"type": "index",
+						"name": "someIndex"
+					}]
+
+				}
+
+			}
+
+		},
+    "stackB-uid": {
+			"scenarioA": {
+				"changeGroupA1": {
+					"provisionedReads": 100,
+					"provisionedWrites": 500,
+					"members": [{
+						"type": "tableRegex",
+						"value": "someTableRegex"
+					}, {
+						"type": "table",
+						"name": "someTable"
+					},{
+						"type": "indexRegex",
+						"name": "someIndexRegex"
+					}, {
+						"type": "index",
+						"name": "someIndex"
+					}]
+
+				},
+				"changeGroupA2": {
+					"provisionedReads": 100,
+					"provisionedWrites": 500,
+					"members": [{
+						"type": "tableRegex",
+						"value": "someTableRegex"
+					}, {
+						"type": "indexRegex",
+						"name": "someIndexRegex"
+					}, {
+						"type": "table",
+						"name": "someTable"
+					}, {
+						"type": "index",
+						"name": "someIndex"
+					}]
+
+				}
+
+			},
+			"scenarioB": {
+				"changeGroupB1": {
+					"provisionedReads": 100,
+					"provisionedWrites": 500,
+					"members": [{
+						"type": "tableRegex",
+						"value": "someTableRegex"
+					}, {
+						"type": "indexRegex",
+						"name": "someIndexRegex"
+					}, {
+						"type": "table",
+						"name": "someTable"
+					}, {
+						"type": "index",
+						"name": "someIndex"
+					}]
+
+				},
+				"changeGroupB2": {
+					"provisionedReads": 100,
+					"provisionedWrites": 500,
+					"members": [{
+						"type": "tableRegex",
+						"value": "someTableRegex"
+					}, {
+						"type": "indexRegex",
+						"name": "someIndexRegex"
+					}, {
+						"type": "table",
+						"name": "someTable"
+					}, {
+						"type": "index",
+						"name": "someIndex"
+					}]
+
+				}
+
+			}
+
+		}
+
+	}
+
+}

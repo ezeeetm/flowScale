@@ -4,93 +4,66 @@
 		"region": "us-east-1",
 		"stateTable": "scalingState-uaa",
 		"stateTableInitialReadCapacityUnits": 5,
-		"stateTableInitialWriteCapacityUnits": 5
+		"stateTableInitialWriteCapacityUnits": 5,
+		"healthCheckTimeOut": 300
 	},
-	"stackConfigs": {
+	"stacks": {
 		"stackA-uid": {
-			"scenarioA": {
-				"changeGroupA1": {
+			"workFlowStateA": {
+				" changeSetA1": {
 					"provisionedReads": 100,
 					"provisionedWrites": 500,
 					"members": [{
 						"type": "tableRegex",
 						"value": "someTableRegex"
 					}, {
-						"type": "indexRegex",
-						"name": "someIndexRegex"
-					}, {
 						"type": "table",
 						"name": "someTable"
-					}, {
-						"type": "index",
-						"name": "someIndex"
 					}]
-
 				},
-				"changeGroupA2": {
+				" changeSetA2": {
 					"provisionedReads": 100,
 					"provisionedWrites": 500,
 					"members": [{
 						"type": "tableRegex",
 						"value": "someTableRegex"
 					}, {
-						"type": "indexRegex",
-						"name": "someIndexRegex"
-					}, {
 						"type": "table",
 						"name": "someTable"
-					}, {
-						"type": "index",
-						"name": "someIndex"
 					}]
 
 				}
 
 			},
-			"scenarioB": {
-				"changeGroupB1": {
+			"workFlowStateB": {
+				" changeSetB1": {
 					"provisionedReads": 100,
 					"provisionedWrites": 500,
 					"members": [{
 						"type": "tableRegex",
 						"value": "someTableRegex"
 					}, {
-						"type": "indexRegex",
-						"name": "someIndexRegex"
-					}, {
 						"type": "table",
 						"name": "someTable"
-					}, {
-						"type": "index",
-						"name": "someIndex"
 					}]
 
 				},
-				"changeGroupB2": {
+				" changeSetB2": {
 					"provisionedReads": 100,
 					"provisionedWrites": 500,
 					"members": [{
 						"type": "tableRegex",
 						"value": "someTableRegex"
 					}, {
-						"type": "indexRegex",
-						"name": "someIndexRegex"
-					}, {
 						"type": "table",
 						"name": "someTable"
-					}, {
-						"type": "index",
-						"name": "someIndex"
 					}]
-
 				}
-
 			}
-
 		},
     "stackB-uid": {
-			"scenarioA": {
-				"changeGroupA1": {
+			"workFlowStateA": {
+				" changeSetA1": {
 					"provisionedReads": 100,
 					"provisionedWrites": 500,
 					"members": [{
@@ -99,77 +72,47 @@
 					}, {
 						"type": "table",
 						"name": "someTable"
-					},{
-						"type": "indexRegex",
-						"name": "someIndexRegex"
-					}, {
-						"type": "index",
-						"name": "someIndex"
 					}]
-
 				},
-				"changeGroupA2": {
+				" changeSetA2": {
 					"provisionedReads": 100,
 					"provisionedWrites": 500,
 					"members": [{
 						"type": "tableRegex",
 						"value": "someTableRegex"
 					}, {
-						"type": "indexRegex",
-						"name": "someIndexRegex"
-					}, {
 						"type": "table",
 						"name": "someTable"
-					}, {
-						"type": "index",
-						"name": "someIndex"
 					}]
 
 				}
 
 			},
-			"scenarioB": {
-				"changeGroupB1": {
+			"workFlowStateB": {
+				" changeSetB1": {
 					"provisionedReads": 100,
 					"provisionedWrites": 500,
 					"members": [{
 						"type": "tableRegex",
 						"value": "someTableRegex"
 					}, {
-						"type": "indexRegex",
-						"name": "someIndexRegex"
-					}, {
 						"type": "table",
 						"name": "someTable"
-					}, {
-						"type": "index",
-						"name": "someIndex"
 					}]
 
 				},
-				"changeGroupB2": {
+				" changeSetB2": {
 					"provisionedReads": 100,
 					"provisionedWrites": 500,
 					"members": [{
 						"type": "tableRegex",
 						"value": "someTableRegex"
 					}, {
-						"type": "indexRegex",
-						"name": "someIndexRegex"
-					}, {
 						"type": "table",
 						"name": "someTable"
-					}, {
-						"type": "index",
-						"name": "someIndex"
 					}]
-
 				}
-
 			}
-
 		}
-
 	}
-
 }
